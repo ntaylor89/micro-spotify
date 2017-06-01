@@ -64,6 +64,6 @@ MIT
 
 Note that this repo follows [JavaScript Standard Style](http://standardjs.com/)
 
-###Acknowledgements
+### Acknowledgements
 
 99.99% of this code was copied from [micro-github](https://github.com/mxstbr/micro-github)
