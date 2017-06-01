@@ -55,7 +55,7 @@ In case an error happens (either by `micro-spotify` or on Spotify) the user will
 
 MIT
 
-### Contributing
+## Contributing
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Added some new feature'`)
@@ -64,6 +64,6 @@ MIT
 
 Note that this repo follows [JavaScript Standard Style](http://standardjs.com/)
 
-### Acknowledgements
+## Acknowledgements
 
 99.99% of this code was copied from [micro-github](https://github.com/mxstbr/micro-github)
