@@ -2,11 +2,11 @@
 
 A microservice that makes authentication with Spotify to your application simple.
 
-This app (and this README) is a slightly modified version of (micro-github)[https://github.com/mxstbr/micro-github]
+This app (and this README) is a slightly modified version of [micro-github](https://github.com/mxstbr/micro-github)
 
 ## Spotify Authentication
 
-This microserver authenticates to spotify using the (Authorization Code Flow)[https://developer.spotify.com/web-api/authorization-guide/#authorization-code-flow], which is outlined in (RFC-6749)[https://tools.ietf.org/html/rfc6749#section-4.1].
+This microserver authenticates to spotify using the [Authorization Code Flow](https://developer.spotify.com/web-api/authorization-guide/#authorization-code-flow), which is outlined in [RFC-6749](https://tools.ietf.org/html/rfc6749#section-4.1).
 
 ## Setup
 
@@ -30,7 +30,7 @@ SPOTIFY_CLIENT_SECRET=ABCDE
 # The URL to redirect the user to once the authentication was successful
 REDIRECT_URI=https://my-app.com
 ```
-> Create an application on Spotify (here)[https://developer.spotify.com/my-applications] if you haven't done that yet.
+> Create an application on Spotify [here](https://developer.spotify.com/my-applications) if you haven't done that yet.
 
 When authentication is successful, the user is redirected to the `REDIRECT_URI` with the `access_token`
 provided by spotify as a query param. You can then use this token to interact with Spotify.
@@ -62,8 +62,8 @@ MIT
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Note that this repo follows (JavaScript Standard Style)[http://standardjs.com/]
+Note that this repo follows [JavaScript Standard Style](http://standardjs.com/)
 
 ###Acknowledgements
 
-99.99% of this code was copied from (micro-github)[https://github.com/mxstbr/micro-github]
+99.99% of this code was copied from [micro-github](https://github.com/mxstbr/micro-github)
