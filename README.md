@@ -14,7 +14,7 @@ Using `now`:
 
 ```
 # Deploy this to now.sh
-now ntaylor89/micro-spotify -e SPOTIFY_CLIENT_ID=12345 -e SPOTIFY_CLIENT_SECRET=ABCDE -e REDIRECT_URL=https://my-app.com
+now ntaylor89/micro-spotify -e SPOTIFY_CLIENT_ID=12345 -e SPOTIFY_CLIENT_SECRET=ABCDE -e REDIRECT_URI=https://my-app.com
 ```
 
 ### Environment Variables
@@ -28,11 +28,11 @@ SPOTIFY_CLIENT_ID=12345
 SPOTIFY_CLIENT_SECRET=ABCDE
 
 # The URL to redirect the user to once the authentication was successful
-REDIRECT_URL=https://my-app.com
+REDIRECT_URI=https://my-app.com
 ```
 > Create an application on Spotify (here)[https://developer.spotify.com/my-applications] if you haven't done that yet.
 
-When authentication is successful, the user is redirected to the `REDIRECT_URL` with the `access_token`
+When authentication is successful, the user is redirected to the `REDIRECT_URI` with the `access_token`
 provided by spotify as a query param. You can then use this token to interact with Spotify.
 
 ## Usage
@@ -45,11 +45,11 @@ https://path-from-now/login
 
 When a user follows this link, they'll be sent to spotify to login.
 
-If the user approves the authorizaiton, they will be send back to the `REDIRECT_URL` with the access token from Spotify.
+If the user approves the authorizaiton, they will be send back to the `REDIRECT_URI` with the access token from Spotify.
 
 ## Error Handling
 
-In case an error happens (either by `micro-spotify` or on Spotify) the user will be redirected to the REDIRECT_URL with the error query param set to a relevant error message.
+In case an error happens (either by `micro-spotify` or on Spotify) the user will be redirected to the REDIRECT_URI with the error query param set to a relevant error message.
 
 ## License
 

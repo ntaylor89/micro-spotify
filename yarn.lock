@@ -325,7 +325,7 @@ micro-redirect@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/micro-redirect/-/micro-redirect-1.0.0.tgz#aef703984f4ee46cfbbbfe2281cacc6f370d669e"
 
-micro@^7.3.3:
+micro@latest:
   version "7.3.3"
   resolved "https://registry.yarnpkg.com/micro/-/micro-7.3.3.tgz#8261c56d2a31a7df93986eff86441396f2b4b070"
   dependencies:
