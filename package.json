@@ -10,7 +10,7 @@
     "micro": "latest",
     "micro-redirect": "^1.0.0",
     "microrouter": "^2.1.1",
-    "node-fetch": "^1.7.3",
+    "node-fetch": "^2.6.1",
     "query-string": "^5.0.0",
     "uid-promise": "^0.1.0"
   }
